@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: #fff;
+    list-style: none;
+    background-color: #000;
+}
+
+header{
+ width: 70%;   
+ display: flex;
+ align-items: center;
+ justify-content: space-between; 
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transform: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #d21617; 
+    border-radius: 10px;
+}
+
+#logo {
+    width: 200px;
+    display: block;
+}
+
+#banner { 
+    background-size: cover;
+    background-image: url(https://pbs.twimg.com/media/FKow19xXwAEdSjY?format=jpg&name=large);
+    background-position: 50% 50%;
+    width: 100%;
+    height: 320px;
+}
+
+
+.imagens-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.fotos-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.foto {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: 30% 30%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-left: 0px;
+    margin-top: 20px;
+    background-color: #d21617
+}
+
+.foto:hover {
+    transform: scale(1.07);
+}
+
+footer {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;	
+    margin-top: 90px;
+ }
+
+ span {
+    color:#fff;
+   font-family:'Kdam Thmor Pro', sans-serif;
+    
+ }
+
+ .batman-1 {
+    background-image: url(https://img-prod.tgcom24.mediaset.it/images/2022/02/24/102936453-c961b87c-998e-4017-a83b-c47b50e3e856.jpg);
+ }
+
+ .batman-2 {
+    background-image: url(https://i2.wp.com/cafeplus.com.br/wp-content/uploads/2022/03/batman-premiere-1024x683.jpg);
+ }
+
+ .batman-3 {
+    background-image: url(https://hollywoodlife.com/wp-content/uploads/2022/02/robert-pattinson-zoe-kravitz-batman-london-premiere-ss-02.jpg?w=680);
+ }
+
+ .batman-4 {
+    background-image: url(https://wwd.com/wp-content/uploads/2022/03/batman-premiere-new-york-3.jpg?w=800);
+ }
+
+ .batman-5 {
+    background-image:url(https://hollywoodlife.com/wp-content/uploads/2022/03/Paul-Dano-5-Things-The-Batman-embed-1.jpg);
+ }
+
+ .batman-6 {
+    background-image:url(https://hollywoodlife.com/wp-content/uploads/2022/03/Jason-Momoa-Zoe-Kravitz-Batman-Premiere-SS-embed-11.jpg);
+ }
+
+ .batman-7 {
+    background-image:url(https://cinepop.com.br/wp-content/uploads/2020/10/batman-4.jpeg);
+ }
+
+ .batman-8 {
+    background-image:url(https://t2.tudocdn.net/614415?w=1920);
+ }
+
+ .batman-9 {
+    background-image:url(https://ovicio.com.br/wp-content/uploads/2022/02/20220222-ovicio-batman-sequencia-jim-gordon-vilao-555x555.jpg);
+ }
+
+ .batman-10 {
+    background-image:url(https://cinemacomrapadura.com.br/imagens/2020/02/20200222-batman3.jpg);
+ }
+
+ .batman-11 {
+    background-image:url(https://uploads.jovemnerd.com.br/wp-content/uploads/2022/05/batman_dc_video_bastidores__7ql02h962.jpg);
+ }
+
+ .batman-12 { 
+    background-image:url(https://rollingstone.uol.com.br/media/uploads/batman_robert_pattinson_vazada_pa_media.jpg);
+ }
